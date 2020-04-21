@@ -242,11 +242,6 @@ func unpackTestEventData(dest interface{}, hexData string, jsonEvent []byte, ass
 	return a.Unpack(dest, "e", data)
 }
 
-/*
-Taken from
-https://github.com/Dacchain/go-Dacchain/pull/15568
-*/
-
 type testResult struct {
 	Values [2]*big.Int
 	Value1 *big.Int
