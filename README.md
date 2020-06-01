@@ -20,7 +20,8 @@ Build DAI on the existing D-Pos based Mainnet to manage transactions and learn u
 
 #### Common Console Commond Example
 
-```dac.blockNumber
+```
+dac.blockNumber
 
 dac.getBlock(blockHashOrBlockNumber)
 
